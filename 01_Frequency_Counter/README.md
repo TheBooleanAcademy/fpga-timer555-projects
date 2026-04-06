@@ -22,6 +22,7 @@ Instead of doing heavy division math in Verilog (which consumes massive amounts 
                           3.3 kΩ
                             │
                            GND
+  
 
 ## 🔌 UART Wiring
 Connect your USB-to-Serial module to the FPGA:
