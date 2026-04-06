@@ -26,21 +26,6 @@ Connect your USB-to-Serial module to the FPGA:
 
 ## 🚀 Quick Start Guide
 
-```bash
-01_Frequency_Counter/        
-    ├── README.md                  
-    ├── rtl/                       
-    │   ├── top_555_freq.v         # Your main module
-    │   └── uart_tx.v              # Your UART module
-    │
-    ├── constraints/               
-    │   └── pins.xdc               
-    │
-    ├── software/                  
-    │   └── read_555.py            
-    │
-    └── docs/                      
-        ├── sa555p_astable_5v_divider.jpg
 
 ### 1. Build the FPGA Bitstream
 Create a new project in Vivado and add the following source files:
