@@ -15,14 +15,7 @@ Instead of doing heavy division math in Verilog (which consumes massive amounts 
 **DO NOT plug the 5V output of a 555 timer directly into a 3.3V FPGA pin!** You must use a voltage divider to step the 5V square wave down to a safe ~3.11V logic level for the FPGA's LVCMOS33 pin.
 
 * **555 Pin 3** -> 2kΩ Resistor -> **FPGA Pin N14**
-* **FPGA Pin N14** -> 3.3kΩ Resistor -> **GND**
-
-* Pin 3 (OUT) ──── 2 kΩ ────┬──── FPGA pin
-                            │
-                          3.3 kΩ
-                            │
-                           GND
-  
+* **FPGA Pin N14** -> 3.3kΩ Resistor -> **GND**  
 
 ## 🔌 UART Wiring
 Connect your USB-to-Serial module to the FPGA:
