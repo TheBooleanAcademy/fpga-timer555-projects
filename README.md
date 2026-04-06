@@ -16,7 +16,7 @@ We bridge the analog and digital worlds by wiring an astable 555 timer to an FPG
 ---
 
 ## 🛠️ Hardware Used in this Series
-* **FPGA Board:** Edge A7 from Invent logic (50 MHz Clock)
+* **FPGA Board:** Edge A7 from Invent logic [AMD-Xilinx Artix7 FPGA] (50 MHz Clock)
 * **Analog IC:** SA555 / NE555 Precision Timer
 * **Serial Bridge:** 7semi USB-to-TTL UART Module
 * **Misc:** Breadboards, jumper wires, assorted capacitors/resistors.
