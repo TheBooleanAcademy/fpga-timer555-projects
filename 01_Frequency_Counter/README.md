@@ -2,7 +2,8 @@
 
 This project demonstrates how to interface an analog 555 Timer circuit with an FPGA, measure its frequency entirely in hardware using a 50 MHz clock, and stream the raw data to a PC via UART.
 
-![Hardware Setup](docs/hardware_setup.jpg) *(Replace with a photo of your actual setup!)*
+![Hardware Setup](docs/sa555p_astable_5v_divider.jpg)
+
 
 ## 📖 How It Works
 Instead of doing heavy division math in Verilog (which consumes massive amounts of logic gates), the FPGA acts as a highly precise stopwatch. 
