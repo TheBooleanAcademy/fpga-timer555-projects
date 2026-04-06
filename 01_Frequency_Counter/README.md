@@ -11,6 +11,7 @@ Instead of doing heavy division math in Verilog (which consumes massive amounts 
 2. A hardware counter measures the exact number of 50 MHz clock ticks between the rising edges of the 555 signal.
 3. A custom state machine translates that 32-bit count into an 8-character Hexadecimal string and transmits it over UART at 115200 baud.
 4. A Python script on the PC reads the serial data, decodes the hex, and calculates the final frequency: `f = 50,000,000 / Clock_Cycles`.
+5. Changing the Capacitor to 100uF will get you approx 1Hz Freq
 
 ## ⚠️ The Voltage Divider (Crucial!)
 **DO NOT plug the 5V output of a 555 timer directly into a 3.3V FPGA pin!** You must use a voltage divider to step the 5V square wave down to a safe ~3.11V logic level for the FPGA's LVCMOS33 pin.
