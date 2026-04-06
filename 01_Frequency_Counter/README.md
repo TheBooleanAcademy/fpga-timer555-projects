@@ -26,23 +26,6 @@ Connect your USB-to-Serial module to the FPGA:
 
 ## 🚀 Quick Start Guide
 
-### 1. Build the FPGA Bitstream
-Create a new project in Vivado and add the following source files:
-* `rtl/top_555_freq.v` (The main project logic)
-* `rtl/uart_tx.v` (The UART transmitter)
-* `constraints/pins.xdc` (Your board constraints)
-
-Generate the bitstream and flash it to your board.
-
-### 2. Run the Python Decoder
-Ensure you have the `pyserial` library installed on your PC:
-```bash
-pip install pyserial
-
-
-
-
-
 ```bash
 01_Frequency_Counter/        
     ├── README.md                  
@@ -58,3 +41,17 @@ pip install pyserial
     │
     └── docs/                      
         ├── sa555p_astable_5v_divider.jpg
+
+### 1. Build the FPGA Bitstream
+Create a new project in Vivado and add the following source files:
+* `rtl/top_555_freq.v` (The main project logic)
+* `rtl/uart_tx.v` (The UART transmitter)
+* `constraints/pins.xdc` (Your board constraints)
+
+Generate the bitstream and flash it to your board.
+
+### 2. Run the Python Decoder
+Ensure you have the `pyserial` library installed on your PC:
+```bash
+pip install pyserial
+
