@@ -25,6 +25,3 @@ We bridge the analog and digital worlds by wiring an astable 555 timer to an FPG
 In all of these projects, the 555 Timer is powered by a 5V source. **FPGA GPIO pins are typically 3.3V (LVCMOS33).** Do not connect the 555 output directly to your FPGA. Every project in this repository utilizes a 2kΩ / 3.3kΩ voltage divider to safely step the 5V signal down to 3.11V. 
 
 See the individual project documentation for wiring diagrams.
-
-## 📜 License
-All code and schematics are open-source under the [MIT License](LICENSE).
